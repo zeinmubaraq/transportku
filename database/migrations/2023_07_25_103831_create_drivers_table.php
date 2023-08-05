@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('sim');
             $table->string('ktp');
             $table->string('phone');
+            $table->string('address');
             $table->timestamps();
         });
     }
